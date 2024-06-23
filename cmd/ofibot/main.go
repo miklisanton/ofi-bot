@@ -23,8 +23,7 @@ var (
 
 func init() {
 	var err error
-	chatID = 6220472117
-	token := "6690181072:AAFLzMJ13agC-kVB9ZeOzyGw8CvqA_aHZNU"
+	token := ""
 
 	bot, err = tgbotapi.NewBotAPI(token)
 	if err != nil {
